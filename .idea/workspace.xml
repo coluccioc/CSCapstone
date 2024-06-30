@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146b0698-a1e9-49b1-b677-108cc99eb59e" name="Changes" comment="Initial commit&#10;Adding basic GUI file. Will update later&#10;Created preprocessed data by walking through images, resizing and flattening" />
+    <list default="true" id="146b0698-a1e9-49b1-b677-108cc99eb59e" name="Changes" comment="Initial commit&#10;Adding basic GUI file. Will update later&#10;Created preprocessed data by walking through images, resizing and flattening">
+      <change afterPath="$PROJECT_DIR$/src/classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocess.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -31,8 +43,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.classify.executor": "Run",
     "Python.gui.executor": "Run",
     "Python.preprocess.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.train.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -63,7 +78,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719362877494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;Adding basic GUI file. Will update later&#10;Created preprocessed data by walking through images, resizing and flattening">
+      <option name="closed" value="true" />
+      <created>1719363386375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719363386375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit&#10;Adding basic GUI file. Will update later&#10;Created preprocessed data by walking through images, resizing and flattening">
+      <option name="closed" value="true" />
+      <created>1719363484416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719363484416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
