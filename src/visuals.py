@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 from PIL import Image
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import train
+import testing
 
 labels = 'Benign', 'Malignant'
 sizes = [437, 210]  # Replace with your actual counts
@@ -26,7 +29,7 @@ axes = axes.flatten()
 
 for ax, img_path in zip(axes, img_paths):
     img = Image.open(img_path)
-    img = img.resize((100,100))
+    img = img.resize((100, 100))
     ax.imshow(img)
     ax.axis('off')
 
@@ -39,6 +42,22 @@ axes[1].set_title('Malignant')
 
 plt.tight_layout()
 plt.savefig('img_grid')
-plt.show()
+plt.close(fig)
+
+cm = confusion_matrix(train.y_test, testing.y_prediction)
+
+class_names = ['Benign', 'Malignant']
 
 
+def create_confusion_matrix(confmatrix, classes, cm_image_path):
+    figure, axis = plt.subplots(figsize=(8, 8))
+    sns.heatmap(confmatrix, annot=True, fmt='d', cmap='Blues', ax=axis,
+                xticklabels=classes, yticklabels=classes)
+    ax.set_xlabel('Predicted')
+    ax.set_ylabel('Actual')
+    ax.set_title('Confusion Matrix')
+    figure.savefig(cm_image_path)
+    plt.close(figure)
+
+
+create_confusion_matrix(cm, class_names, 'confusion_matrix.png')

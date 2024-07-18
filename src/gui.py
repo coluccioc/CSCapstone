@@ -3,8 +3,6 @@ import customtkinter as ctk
 from PIL import Image
 import classify
 from skimage.io import imread
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
 # Navigate to the First Data Visualization Scene
@@ -24,6 +22,7 @@ def nav_data2():
     data_frame.pack_forget()
     data_frame2.pack(pady=10, padx=15, fill="both", expand=True)
     data_frame2.tkraise()
+    grid_label.pack()
     nav_main_button2.pack(side=BOTTOM, pady=20)
     nav_data3_button.pack(side=BOTTOM, pady=10)
 
@@ -33,6 +32,7 @@ def nav_data3():
     data_frame2.pack_forget()
     data_frame3.pack(pady=10, padx=15, fill="both", expand=True)
     data_frame3.tkraise()
+    matrix_label.pack()
     nav_main_button3.pack(side=BOTTOM, pady=20)
 
 
@@ -158,8 +158,8 @@ data_frame3 = ctk.CTkFrame(master=root)
 
 label8 = ctk.CTkLabel(master=data_frame2, text="Visualizations", font=("Arial", 14))
 
-img6_path = 'C:\\Users\\clcol\\PycharmProjects\\csCapstone\\src\\img_grid.png'
-img6 = ctk.CTkImage(Image.open(img6_path), size=(200, 200))
+img6_path = 'C:\\Users\\clcol\\PycharmProjects\\csCapstone\\src\\confusion_matrix.png'
+img6 = ctk.CTkImage(Image.open(img6_path), size=(500, 500))
 matrix_label = ctk.CTkLabel(master=data_frame3, text="", image=img6)
 
 nav_main_button3 = ctk.CTkButton(master=data_frame3, text="Home", command=nav_main3)

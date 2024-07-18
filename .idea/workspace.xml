@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146b0698-a1e9-49b1-b677-108cc99eb59e" name="Changes" comment="Built out multiple scenes for the GUI. Created visuals to display using matplotlib. Pie chart and Image Grid are displayed on separate scenes." />
+    <list default="true" id="146b0698-a1e9-49b1-b677-108cc99eb59e" name="Changes" comment="Built out multiple scenes for the GUI. Created visuals to display using matplotlib. Pie chart and Image Grid are displayed on separate scenes.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visuals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visuals.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720577049792</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Built out multiple scenes for the GUI. Created visuals to display using matplotlib. Pie chart and Image Grid are displayed on separate scenes.">
+      <option name="closed" value="true" />
+      <created>1720577658452</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720577658452</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

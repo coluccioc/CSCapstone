@@ -19,4 +19,3 @@ print(f"{str(accuracy*100)}% of images were correctly classified.")
 
 pickle.dump(best_estimator, open('./model.p', 'wb'))
 
-best_estimator.predict()
